@@ -3,7 +3,7 @@ var map;
 function initMap() {
   map = new google.maps.Map(document.getElementById("map"), {
     center: { lat: -19.9, lng: -43.9 },
-    zoom: 12,
+    zoom: 10,
   });
   var marker = [], i;
   var infoWindow = []
@@ -22,11 +22,11 @@ function initMap() {
     marker[i].addListener('click', (function(marker,i){
         return function(){
             infoWindow[i] = new google.maps.InfoWindow({
-                content: markers.locs[i].nome + " - " + markers.locs[i].telefone1
+                content: "<b>" + markers.locs[i].nome + "</b><br>" + markers.locs[i].tipo_logradouro + markers.locs[i].nome_logradouro + ", " + markers.locs[i].numero + "<br>" + markers.locs[i].bairro + "<br>" + " Telefone: " + markers.locs[i].telefone1
               });
             infoWindow[i].open(map, marker);
             map.setCenter(marker.getPosition());
-            map.setZoom(10);
+            map.setZoom(13);
         }
     })(marker[i],i));
 
