@@ -1,0 +1,33 @@
+cff-version: 1.0.1
+message: Please cite this software using these metadata.
+title: Proteção à Mulher
+authors:
+  - family-names: de Assis Fraga
+    given-names: Letícia 
+  - family-names: Cerqueira De Andrade
+    given-names: Lucas
+  - family-names: Silva Ribeiro De Sá
+    given-names: Maria Eliza
+  - family-names: Maximo Mafra
+    given-names: Roberto
+  - family-names: Lima Barbosa
+    given-names: Yollanda
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: de Nardim
+    given-names: Luciana
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Vieira Carneiro
+    given-names: Rommel
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Alves Nogueira
+    given-names: Simone
+keywords:
+  - Proteção
+  - Mulher
+repository-code: https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2021-1-ti1-7946100-08-protecao-a-mulher
+license: CC-BY-4.0
+version: 1.0.0
+date-released: 2021-06-20
